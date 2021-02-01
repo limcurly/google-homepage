@@ -1,0 +1,73 @@
+html {
+    font-family: serif;
+} 
+
+
+#main {
+    text-align: center;
+    margin-top: 20%;
+}
+
+
+#submit {
+    margin-top: 5px;
+}
+
+ul li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+}
+
+li a {
+    color: black;
+    text-align: center;
+    padding: auto;
+    text-decoration: none;
+    font-size: 12;
+    margin-right: 20px;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
+#sign-in {
+    background-color: #4285f4;
+    padding: 5px;
+    border: 1px solid white;
+    border-radius: 10%;
+    text-align: center;
+}
+
+li a #sign-in {
+    color: white !important;
+}
+
+
+
+#nav-left {
+    float: left;
+}
+
+#nav-right {
+    float: right;
+}
+
+footer {
+    background-color: rgb(255, 248, 235);
+    margin: auto -50px -50px -10px;
+    border: 3px soild gray;
+
+}
+
+#footer {
+    padding: 10px;
+    margin-top: 460px;
+    
+
+}
