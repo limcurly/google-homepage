@@ -6,7 +6,7 @@
 <div id="navbar">
     <nav id="nav-left">
     <ul>
-        <li><a href="https://about.google/?fg=1&utm_source=google-AU&utm_medium=referral&utm_campaign=hp-header">About</a></li>
+        <li id="about"><a href="https://about.google/?fg=1&utm_source=google-AU&utm_medium=referral&utm_campaign=hp-header">About</a></li>
         <li><a href="https://store.google.com/AU?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-AU">Store</a></li>
     </ul>
 </nav>
@@ -16,7 +16,7 @@
         <li><a href="https://mail.google.com/mail/?tab=wm&ogbl">Gmail</a></li>
         <li><a href="https://mail.google.com/mail/?tab=wm&ogbl">Images</a></li>
         <li><a href="https://www.google.com.au/intl/en/about/products?tab=wh">....</a></li>
-        <li id="sign-in" style="color: white;"><a href="https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/&ec=GAZAAQ">Sign In</a></li>
+        <li><button type="button"  id="sign-in">Sign In</button></li>
     </ul>
 </nav>
 </div>
@@ -26,16 +26,25 @@
 <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google logo">
 
 <form id="search-bar">
-    <input type="text" placeholder="Search Google or type a URL"> <br />
-   <div id="submit"> <input type="submit" value="Google Search">
-    <input type="submit" value="I'm Feeling Lucky"> </div>
+    <div id="search">
+        <input type="text" placeholder="" id="textarea">
+    <button id="searchbtn" value=""></button> </div> <br />
+   <div id="submit"> <input type="submit" value="Google Search" class="submit">
+    <input type="submit" value="I'm Feeling Lucky" class="submit" id="IFL"> </div>
 </form> </div> 
 </body>
 <footer>
-    <ul id="footer">
-        <li>Advertising</li>
-        <li>Business</li>
-        <li>How Search works</li>
+    <ul id="footer-left">
+        <li><a href="#">Advertising</a></li>
+        <li><a href="#">Business</a></li>
+        <li><a href="#">How Search works</a></li>
     </ul>
+
+<ul id="footer-right">
+    <li><a href="#">Privacy</a></li>
+    <li><a href="#">Terms</a></li>
+    <li><a href="#">Settings</a></li>
+</ul>
+
 </footer>
 </html>
